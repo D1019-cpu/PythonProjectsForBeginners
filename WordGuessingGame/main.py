@@ -12,7 +12,8 @@ guesses = ""
 print("The selected word has", len(word), "characters.")
 
 # number of turns
-turns = 12
+turns = len(word) + 6
+print("You have",turns,"guessing!")
 while turns > 0:
     # count the number of times a user fails
     failed = 0
@@ -32,10 +33,8 @@ while turns > 0:
         break
     
     guess = input("Guess a character: ")
-    while len(guess) > len(word):
-        guess = input(f"Maximum {len(word)} characters, Please re-enter:")
-    while len(guess) == 0:
-        guess = input("Minimum 1 character, please re-enter: ")
+    while len(guess) != 1:
+        guess = input("One character, please re-enter: ")
     guesses += guess
 
     if guess.lower() not in word.lower():
