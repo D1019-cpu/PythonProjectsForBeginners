@@ -1,0 +1,15 @@
+# xử lý chữ hoa chữ thường
+# dữ liệu
+# name
+# choice
+# guesses là chuỗi các ký tự mà người dùng đã đoán
+# có 12 lượt chơi
+# guess là biến mỗi lượt đoán
+# nếu guess k có trong word thì lượt chơi (turns) sẽ giảm đi 1
+# failed = 0 trong mỗi vòng lặp và nếu mỗi từ k đúng sẽ tăng lên 1
+# khi các từ đúng hết nên failed = 0 sẽ giành chiến thắng
+# mỗi lần sẽ đoán 1 ký tự thì hơi ít nên sẽ đoán tối đa bằng độ dài của từ cần đoán đế tránh
+# gian lận khi nhập hết bảng chữ cái
+# độ khó cấp 2: độ khó trên vẫn có thể gian lận được vì có đến 12 lần đoán
+# nên sẽ sửa mỗi lần chỉ được đoán 1 ký tự thêm vào đó số lần đoán dựa trên độ dài ký tự + 6
+# 1 bug nữa là khi không nhập gì vào trong guess sẽ k bị giảm số lượt nên cần fix

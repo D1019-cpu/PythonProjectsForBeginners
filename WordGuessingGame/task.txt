@@ -1,0 +1,7 @@
+In this game:
+    There is a list of words present
+    Interpreter will choose 1 random word using module random (random.choice)
+    The user first has to input their names and then, will be asked to guess any alphabet
+    If random word contains that alphabet, it will be shown as the output (with correct placement)
+    Else the program will ask you to guess another alphabet
+    User will be given 12 turns to guess the complete word
