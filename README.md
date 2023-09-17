@@ -1,4 +1,4 @@
-List Projects
-1. Number Guessing Game
-2. Word Guessing Game
-3. 2048 Game
+# List Projects
+1. Number Guessing Game <br/>
+2. Word Guessing Game <br/>
+3. 2048 Game <br/>
